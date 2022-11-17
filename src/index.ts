@@ -4,7 +4,7 @@ import path from 'node:path';
 
 import { router } from './router';
 
-mongoose.connect('mongodb+srv://dbUser:1234@cluster0.qcstanc.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('XXX')
   .then( () => {
     const app = express();
     const port = 3002;
